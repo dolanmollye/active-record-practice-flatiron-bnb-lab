@@ -5,3 +5,7 @@ require File.expand_path('../config/application', __FILE__)
 require "sinatra/activerecord/rake"
 
 Rails.application.load_tasks
+
+task :console => :environment do
+  Pry.start
+end 

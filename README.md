@@ -47,5 +47,3 @@ has_many :listings, :foreign_key => 'host_id'
 ## Resources
 
 [Foreign key and Class Name AR class methods](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
-
-
